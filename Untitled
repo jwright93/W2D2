@@ -1,0 +1,5 @@
+load 'board.rb'
+load 'pawn.rb'
+b = Board.new
+p = Pawn.new(:white)
+p.moves([4,4],b)
